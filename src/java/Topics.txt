@@ -1,0 +1,22 @@
+Concepts:
+Java (Core concepts like
+	Data types, Ex: "asdfasdgf", 123, 12.01, 'a', True,False,
+	            1222124123123 (Long),
+	            1234123413241324.51235532523(BigDecimal)
+	Access modifiers,
+	Statements(Assignment, Conditional, Looping),
+	Object Oriented Programming,
+	Data Structure,
+	Collections,
+	Exceptions)
+    			->  Exclude (Threads, Swing UI, AWT)
+Advanced Java (Web and Database) -
+	Servlet +
+	JDBC +
+	JSP
+Spring MVC
+Important Annotations
+Groovy
+
+Small Talk
+Ada
