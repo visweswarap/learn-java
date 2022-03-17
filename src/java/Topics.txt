@@ -1,13 +1,35 @@
 Concepts:
 Java (Core concepts like
+    Operators:
+        =, +, -, %, *, ==, <, >, <=, >=, &&(AND), ||(OR)
 	Data types, Ex: "asdfasdgf", 123, 12.01, 'a', True,False,
 	            1222124123123 (Long),
 	            1234123413241324.51235532523(BigDecimal)
 	Access modifiers,
 	Statements(Assignment, Conditional, Looping),
-	Object Oriented Programming,
+	    Conditional:
+	        1. If
+	        2. if-else
+	        3. Nested if-else
+	        4. Ternary
+	        int a = 1==1 ? 10 : 20
+
+    Input/Output: ***
+
+	Object Oriented Programming:
+	    1. Classes & Objects
+	        Class: a blueprint
+	        Object: outcome / output of that blueprint
+	    2. Encapsulation
+	    3. Polymorphism
+	    4. Abstraction
+	    5. Inheritance
+
 	Data Structure,
-	Collections,
+	Collections:
+	    List (ArrayList, Vector, LinkedList)
+	    Maps (HashMap)
+	    Trees
 	Exceptions)
     			->  Exclude (Threads, Swing UI, AWT)
 Advanced Java (Web and Database) -
