@@ -1,44 +1,41 @@
 Concepts:
-Java (Core concepts like
-    Operators:
+    Core concepts:
+    ==============
+     - Operators:
         =, +, -, %, *, ==, <, >, <=, >=, &&(AND), ||(OR)
-	Data types, Ex: "asdfasdgf", 123, 12.01, 'a', True,False,
+	 - Data types, Ex: "asdfasdgf", 123, 12.01, 'a', True,False,
 	            1222124123123 (Long),
 	            1234123413241324.51235532523(BigDecimal)
-	Access modifiers,
-	Statements(Assignment, Conditional, Looping),
-	    Conditional:
-	        1. If
-	        2. if-else
-	        3. Nested if-else
-	        4. Ternary
-	        int a = 1==1 ? 10 : 20
-
-    Input/Output: ***
-
-	Object Oriented Programming:
+	- Access modifiers,
+	- Statements(Assignment, Conditional, Looping),
+	        1. If, if-else, Nested if-else, Ternary
+	        2. for loop, while, for-each
+    - Input/Output: ***
+	- Object Oriented Programming:
 	    1. Classes & Objects
 	        Class: a blueprint
 	        Object: outcome / output of that blueprint
 	    2. Encapsulation
 	    3. Polymorphism
-	    4. Abstraction
-	    5. Inheritance
+	        Poly-morph-ism
+	        1. Runtime (Dynamic) - Method overriding
+	        2. Compile time (Static) - Method overloading
+	    4. Inheritance
+	        Interfaces, Abstract classes, Concrete classes
+	    5. Abstraction
+
+    Constructors, Methods
 
 	Data Structure,
 	Collections:
 	    List (ArrayList, Vector, LinkedList)
 	    Maps (HashMap)
 	    Trees
-	Exceptions)
-    			->  Exclude (Threads, Swing UI, AWT)
+	Exceptions
 Advanced Java (Web and Database) -
-	Servlet +
 	JDBC +
+	Servlet +
 	JSP
 Spring MVC
 Important Annotations
 Groovy
-
-Small Talk
-Ada

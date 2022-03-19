@@ -6,8 +6,9 @@ public class LearnHello {
 
     public static void main(String args[])
     {
-        System.out.println("Hello World ...! Welcome to Claz.org.");
-        AccessModifiers am = new AccessModifiers();
-        am.abc();
+        Robo yodha = new Robo();
+        yodha.sayHello("Philip");
+        yodha.walk();
+        yodha.sleepMode();
     }
 }
