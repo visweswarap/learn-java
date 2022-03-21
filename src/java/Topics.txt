@@ -19,18 +19,26 @@ Concepts:
 	    3. Polymorphism
 	        Poly-morph-ism
 	        1. Runtime (Dynamic) - Method overriding
-	        2. Compile time (Static) - Method overloading
+	            Two different classes (Parent and child)
+	            Same name
+	            Same signature
+	        2. Compile time (Static) - Method over-loading
+	            Same class,
+	            different methods with same name
+	            but different signature (Arguments)
 	    4. Inheritance
 	        Interfaces, Abstract classes, Concrete classes
 	    5. Abstraction
+	        Hiding unwanted implemented details.
 
     Constructors, Methods
 
 	Data Structure,
+
 	Collections:
 	    List (ArrayList, Vector, LinkedList)
 	    Maps (HashMap)
-	    Trees
+	    -- Trees --
 	Exceptions
 Advanced Java (Web and Database) -
 	JDBC +
@@ -38,4 +46,8 @@ Advanced Java (Web and Database) -
 	JSP
 Spring MVC
 Important Annotations
+    @Override
+    @Controller
+    @Repository
+    @Service
 Groovy

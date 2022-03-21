@@ -1,3 +1,5 @@
+package interfaces;
+
 public class Employee {
 
     private String employeeId;
@@ -12,10 +14,6 @@ public class Employee {
         this.lastname = lastname;
         this.salary = salary;
         this.email = email;
-    }
-
-    Employee(){
-
     }
 
     public String getEmployeeId() {

@@ -9,13 +9,14 @@ public class ObjectConcepts {
         concepts.calculateBonus(andrei, 12.06f);
     }
 
-    void calculateBonus(Employee employee){
+    public Double calculateBonus(Employee employee){
         int bonusPercentage = 10;
         System.out.print("Bonus is: ");
         System.out.println((employee.getSalary()*bonusPercentage)/100);
+        return (Double) ((employee.getSalary()*bonusPercentage)/100);
     }
 
-    void calculateBonus(Employee employee, float bonusPercentage){
+    public void calculateBonus(Employee employee, float bonusPercentage){
         System.out.println((employee.getSalary()*bonusPercentage)/100);
     }
 
