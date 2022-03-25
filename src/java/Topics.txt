@@ -32,9 +32,7 @@ Concepts:
 	        Hiding unwanted implemented details.
 
     Constructors, Methods
-
 	Data Structure,
-
 	Collections:
 	    List (ArrayList, Vector, LinkedList)
 	    Maps (HashMap)
