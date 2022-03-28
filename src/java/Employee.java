@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Employee {
 
     private String employeeId;
@@ -15,7 +17,6 @@ public class Employee {
     }
 
     Employee(){
-
     }
 
     public String getEmployeeId() {
@@ -56,5 +57,18 @@ public class Employee {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Employee employee = (Employee) o;
+        return Double.compare(employee.salary, salary) == 0 && employeeId.equals(employee.employeeId) && firstname.equals(employee.firstname) && lastname.equals(employee.lastname) && email.equals(employee.email);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(employeeId, firstname, lastname, salary, email);
     }
 }

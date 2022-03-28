@@ -32,11 +32,15 @@ Concepts:
 	        Hiding unwanted implemented details.
 
     Constructors, Methods
+    HashCode & Equals
 	Data Structure,
 	Collections:
-	    List (ArrayList, Vector, LinkedList)
-	    Maps (HashMap)
-	    -- Trees --
+	    Collection
+    	    List (ArrayList, LinkedList)
+    	    Set (HashSet)
+	        Maps (HashMap)
+	        -- Table (HashTable)
+	        -- Trees --
 	Exceptions
 Advanced Java (Web and Database) -
 	JDBC +
